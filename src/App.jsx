@@ -4,12 +4,7 @@ function App() {
   return(
 <>
       <Cards/>
-      <Cards/>
-
-      <Cards/>
-      <Cards/>
-      <Cards/>
-      <Cards/>
+    
 
 
 </>
