@@ -12,8 +12,10 @@ function Frutes(){
                 // frutes.sort((a,b)=>a.name.localeCompare(b.name));
                 // frutes.sort((a,b)=>b.name.localeCompare(a.name));
                 // frutes.sort((a,b)=>a.calaries - b.calaries);
-                frutes.sort((a,b)=>b.calaries - a.calaries);
-  const myfrutes = frutes.map(frutes => <li key={frutes.id}>{frutes.name}&nbsp;<b>{frutes.calaries}</b></li>);
+                // frutes.sort((a,b)=>b.calaries - a.calaries);
+
+           const filterfrues =     frutes.filter(frutes=>frutes.calaries > 80);
+  const myfrutes = filterfrues.map(frutes => <li key={frutes.id}>{frutes.name}&nbsp;<b>{frutes.calaries}</b></li>);
   return (
     <>
       <ol>{myfrutes}</ol>
