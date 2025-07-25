@@ -1,14 +1,11 @@
-
-import Button from './Button/Button.jsx';
+import Frutes from './frutes.jsx';
 
 function App() {
-  return(
-<>
-    <Button/> 
-</>
- 
+  return (
+    <>
+       <Frutes/>
+    </>
   );
- 
 }
 
-export default App
+export default App;
