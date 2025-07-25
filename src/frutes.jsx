@@ -17,7 +17,7 @@ function Frutes(){
            const filterfrues =     frutes.filter(frutes=>frutes.calaries > 80);
   const myfrutes = filterfrues.map(frutes => <li key={frutes.id}>{frutes.name}&nbsp;<b>{frutes.calaries}</b></li>);
   return (
-    <>
+    <>//
       <ol>{myfrutes}</ol>
     </>
   );
