@@ -1,5 +1,5 @@
 
-import Mycomponent from "./stateeventHOOK.jsx";
+import CounterApp from "./couterApp.jsx";
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-<Mycomponent/>
+<CounterApp/>
 
     </>
   );
