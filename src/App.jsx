@@ -1,13 +1,14 @@
-import Button from "./onclickevent";
+
+import Mycomponent from "./stateeventHOOK.jsx";
 
 function App() {
 
 
 
-
   return (
     <>
-    <Button/>
+<Mycomponent/>
+
     </>
   );
 }
