@@ -13,7 +13,7 @@ const sub = () =>{
 const reset = () =>{
     CounterNumber( 0);
 }
-//update hello world
+
     return(
         <div className="counter-container">
                 <p className="counter-display">{countNumber}</p >
